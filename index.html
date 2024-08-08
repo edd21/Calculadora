@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Calculadora</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Calculadora</h1>
+    <p>(A veces está en radianes sin que te des cuenta)</p>
+  </header>
+  <form align="center">
+    <h4>Digite el primer numero</h4>
+    <input type="number" name="num1" id="num1">
+    
+    <h4>Digite el segundo numero</h4>
+    <input type="number" name="num2" id="num2">
+
+    <h4>El resultado es:</h4>
+    <input type="text" id="resultado" >
+    <br><br>
+    <button  class="button" type="button" value="sumar" onclick="sumar()">+</button>
+    <button  class="button" type="button" value="restar" onclick="restar()">-</button>
+    <button  class="button" type="button" value="multiplicar" onclick="multiplicar()">x</button>
+    <button  class="button" type="button" value="dividir" onclick="dividir()">/</button>
+  </form>
+</body>
+</html>
